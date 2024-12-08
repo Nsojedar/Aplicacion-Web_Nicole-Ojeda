@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="registro.js"></script> 
+</head>
+<body>
+    <header>
+        <h1>Registro de Usuario</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="funcionalidades.html">Funcionalidades</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Formulario de Registro</h2>
+        <form id="formulario">
+            <label for="id">ID:</label>
+            <input type="text" id="id" required><br>
+
+            <label for="cedula">Cédula de Identidad:</label>
+            <input type="text" id="cedula" required><br>
+
+            <label for="nombre">Nombres y Apellidos:</label>
+            <input type="text" id="nombre" required><br>
+
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" required><br>
+
+            <label for="ciudad">Ciudad:</label>
+            <select id="ciudad" required>
+                <option value="Quito">Quito</option>
+                <option value="Cuenca">Cuenca</option>
+                <option value="Ambato">Ambato</option>
+                <option value="Guayaquil">Guayaquil</option>
+                <option value="Loja">Loja</option>
+            </select><br>
+
+            <button type="button" id="btnRegistrar">Registrar</button>
+        </form>
+    </main>
+</body>
+</html>
