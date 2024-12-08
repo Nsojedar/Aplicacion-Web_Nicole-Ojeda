@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #da6ee8;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem; 
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.datos-personales {
+    max-width: 600px;
+    margin: 2rem auto;
+}
